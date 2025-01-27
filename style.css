@@ -22,47 +22,53 @@ body {
         url('https://picsum.photos/420/300?random=2'),
         url('https://picsum.photos/420/300?random=3'),
         url('https://picsum.photos/420/300?random=4'),
-        url('https://picsum.photos/420/300?random=5');
+        url('https://picsum.photos/420/300?random=5'),
+        url('https://picsum.photos/420/300?random=6')
+        ;
 }
 
+link .logo{
+    border-radius: 50%;
+}
 .imgLoader {
     position: fixed;
     animation: preLoad 1s steps(1);
     width: 1px;
     height: 1px;
+    @keyframes preLoad {
+
+        0%,
+        10% {
+            background-image: var(--images);
+        }
+    
+        20%,
+        30% {
+            background-image: var(--images);
+        }
+    
+        40%,
+        50% {
+            background-image: var(--images);
+        }
+    
+        60%,
+        70% {
+            background-image: var(--images);
+        }
+    
+        80%,
+        90% {
+            background-image: var(--images);
+        }
+    
+        100% {
+            display: none;
+        }
+    }
 }
 
-@keyframes preLoad {
 
-    0%,
-    10% {
-        background-image: var(--images);
-    }
-
-    20%,
-    30% {
-        background-image: var(--images);
-    }
-
-    40%,
-    50% {
-        background-image: var(--images);
-    }
-
-    60%,
-    70% {
-        background-image: var(--images);
-    }
-
-    80%,
-    90% {
-        background-image: var(--images);
-    }
-
-    100% {
-        display: none;
-    }
-}
 
 .book {
     position: relative;
