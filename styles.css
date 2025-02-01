@@ -168,13 +168,12 @@ link .logo {
     top: 0px;
     transform-origin: 100% 100%;
     right: 100%;
-    border: solid #000;
-    /* Replace with the desired border color */
+    border: solid var(--border-color);
     border-width: 2px 0px;
     perspective: 4200px;
     perspective-origin: center;
     transform-style: preserve-3d;
-    background-size: 420px 300px;
+    background-size: 120px 100px;
 }
 
 .flip::after {
@@ -247,14 +246,12 @@ link .logo {
 
     0%,
     20% {
-        transform: rotateX(30deg) rotateY(6deg);
-        /* Replace with desired angle */
+        transform: rotateX(var(--book-angle)) rotateY(6deg);
     }
 
     80%,
     100% {
-        transform: rotateX(30deg) rotateY(174deg);
-        /* Replace with desired angle */
+        transform: rotateX(var(--book-angle)) rotateY(174deg);
     }
 }
 
