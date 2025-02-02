@@ -133,6 +133,32 @@ link .logo {
     background-position: 100% -2px;
 }
 
+@keyframes nextPage {
+    0% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+    }
+
+    20% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+    }
+
+    40% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+    }
+
+    60% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+    }
+
+    80% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+    }
+
+    100% {
+        background-image: url('https://picsum.photos/420/300?random=6');
+    }
+}
+
 .gap {
     width: 10px;
     height: 300px;
@@ -196,7 +222,6 @@ link .logo {
 
 .flip.flip1::after {
     animation: nextFlip1 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
 }
 
 .flip:not(.flip1) {
@@ -209,27 +234,27 @@ link .logo {
 
 .flip.flip2::after {
     animation: nextFlip2 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
+
 }
 
 .flip.flip3::after {
     animation: nextFlip3 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
+
 }
 
 .flip.flip4::after {
     animation: nextFlip4 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
+
 }
 
 .flip.flip5::after {
     animation: nextFlip5 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
+
 }
 
 .flip.flip6::after {
     animation: nextFlip6 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
+
 }
 
 .flip.flip7 {
@@ -239,7 +264,6 @@ link .logo {
 
 .flip.flip7::after {
     animation: nextFlip7 10s infinite steps(1);
-    /* Adjust speed (10s) as needed */
 }
 
 @keyframes flip1 {
