@@ -36,36 +36,38 @@ link .logo {
     width: 1px;
     height: 1px;
 
-    @keyframes preLoad {
 
-        0%,
-        10% {
-            background-image: var(--images);
-        }
+}
 
-        20%,
-        30% {
-            background-image: var(--images);
-        }
+@keyframes preLoad {
 
-        40%,
-        50% {
-            background-image: var(--images);
-        }
+    0%,
+    10% {
+        background-image: var(--images);
+    }
 
-        60%,
-        70% {
-            background-image: var(--images);
-        }
+    20%,
+    30% {
+        background-image: var(--images);
+    }
 
-        80%,
-        90% {
-            background-image: var(--images);
-        }
+    40%,
+    50% {
+        background-image: var(--images);
+    }
 
-        100% {
-            display: none;
-        }
+    60%,
+    70% {
+        background-image: var(--images);
+    }
+
+    80%,
+    90% {
+        background-image: var(--images);
+    }
+
+    100% {
+        display: none;
     }
 }
 
@@ -101,7 +103,7 @@ link .logo {
 
 .page:nth-child(3) {
     transform: rotateX(var(--book-angle)) rotateY(6deg);
-    animation: nextPage calc(var(--speed) * 5) infinite calc(var(--speed) * -4.8) steps(1);
+    animation: nextPage calc(var(--speed) * 5) calc(var(--speed) * -4.8) infinite  steps(1);
     background-size: 420px 300px;
     background-position: -2px -2px;
 }
@@ -215,45 +217,43 @@ link .logo {
 
 .flip.flip1 {
     right: 50%;
-    animation: flip1 2s infinite ease-in-out;
-    /* Adjust speed (2s) as needed */
+    animation: flip1 var(--speed) infinite ease-in-out;
     border-width: 2px 2px 2px 0;
 }
 
 .flip.flip1::after {
-    animation: nextFlip1 10s infinite steps(1);
+    animation: nextFlip1 calc(var(--speed) * 5) calc(var(--speed) * -4)  infinite steps(1);
 }
 
 .flip:not(.flip1) {
     right: calc(100% - 2px);
     top: -2px;
-    transform-origin: right;
-    animation: flip2 2s ease-in-out infinite;
-    /* Adjust speed (2s) as needed */
+    transform-origin: left;
+    animation: flip2 var(--speed) ease-in-out infinite;
 }
 
 .flip.flip2::after {
-    animation: nextFlip2 10s infinite steps(1);
+    animation: nextFlip2 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 
 }
 
 .flip.flip3::after {
-    animation: nextFlip3 10s infinite steps(1);
+    animation: nextFlip3 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 
 }
 
 .flip.flip4::after {
-    animation: nextFlip4 10s infinite steps(1);
+    animation: nextFlip4 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 
 }
 
 .flip.flip5::after {
-    animation: nextFlip5 10s infinite steps(1);
+    animation: nextFlip5 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 
 }
 
 .flip.flip6::after {
-    animation: nextFlip6 10s infinite steps(1);
+    animation: nextFlip6 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 
 }
 
@@ -263,7 +263,7 @@ link .logo {
 }
 
 .flip.flip7::after {
-    animation: nextFlip7 10s infinite steps(1);
+    animation: nextFlip7 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 }
 
 @keyframes flip1 {
