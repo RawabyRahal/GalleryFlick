@@ -103,7 +103,7 @@ link .logo {
 
 .page:nth-child(3) {
     transform: rotateX(var(--book-angle)) rotateY(6deg);
-    animation: nextPage calc(var(--speed) * 5) calc(var(--speed) * -4.8) infinite  steps(1);
+    animation: nextPage calc(var(--speed) * 5) calc(var(--speed) * -4.8) infinite steps(1);
     background-size: 420px 300px;
     background-position: -2px -2px;
 }
@@ -218,11 +218,11 @@ link .logo {
 .flip.flip1 {
     right: 50%;
     animation: flip1 var(--speed) infinite ease-in-out;
-    border-width: 2px 2px 2px 0;
+    /* border-width: 2px 2px 2px 0; */
 }
 
 .flip.flip1::after {
-    animation: nextFlip1 calc(var(--speed) * 5) calc(var(--speed) * -4)  infinite steps(1);
+    animation: nextFlip1 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
 }
 
 .flip:not(.flip1) {
@@ -298,10 +298,22 @@ link .logo {
         transform: rotateY(0deg);
     }
 
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
+    }
+
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
         background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
@@ -310,250 +322,454 @@ link .logo {
         transform: rotateY(0deg);
     }
 
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
+    }
+
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
         background-position: -178px -2px;
         transform: rotateY(0deg);
     }
 
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
+    }
+
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
         background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
+        background-image: url('https://picsum.photos/420/300?random=1');
         background-position: -178px -2px;
-        transform: rotateY(180deg);
+        transform: rotateY(0deg);
     }
 }
 
 
 @keyframes nextFlip2 {
+
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: -148px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: -148px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: -148px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: -148px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: -148px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: -148px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
+
 }
 
 @keyframes nextFlip3 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: -118px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: -118px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: -118px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: -118px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: -118px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: -118px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
+
 }
 
 @keyframes nextFlip4 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: -88px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: -88px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: -88px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: -88px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: -88px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: -88px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
 }
 
 @keyframes nextFlip5 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: -58px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: -58px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: -58px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: -58px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: -58px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: -58px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
+
 }
 
 @keyframes nextFlip6 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: -28px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: -28px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: -28px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: -28px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: -28px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: -28px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
+
 }
 
 @keyframes nextFlip7 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
-        background-position: 2px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    10% {
+        background-image: url('https://picsum.photos/420/300?random=2');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     20% {
         background-image: url('https://picsum.photos/420/300?random=2');
-        background-position: 2px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    30% {
+        background-image: url('https://picsum.photos/420/300?random=3');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     40% {
         background-image: url('https://picsum.photos/420/300?random=3');
-        background-position: 2px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    50% {
+        background-image: url('https://picsum.photos/420/300?random=4');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     60% {
         background-image: url('https://picsum.photos/420/300?random=4');
-        background-position: 2px -2px;
+        background-position: -178px -2px;
         transform: rotateY(0deg);
+    }
+
+    70% {
+        background-image: url('https://picsum.photos/420/300?random=5');
+        background-position: -210px -2px;
+        transform: rotateY(180deg);
     }
 
     80% {
         background-image: url('https://picsum.photos/420/300?random=5');
-        background-position: 2px -2px;
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
+    }
+
+    90% {
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -210px -2px;
         transform: rotateY(180deg);
     }
 
     100% {
-        background-image: url('https://picsum.photos/420/300?random=6');
-        background-position: 2px -2px;
-        transform: rotateY(180deg);
+        background-image: url('https://picsum.photos/420/300?random=1');
+        background-position: -178px -2px;
+        transform: rotateY(0deg);
     }
+
 }
