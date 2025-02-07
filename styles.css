@@ -228,13 +228,12 @@ link .logo {
 .flip:not(.flip1) {
     right: calc(100% - 2px);
     top: -2px;
-    transform-origin: left;
+    transform-origin: right;
     animation: flip2 var(--speed) ease-in-out infinite;
 }
 
 .flip.flip2::after {
     animation: nextFlip2 calc(var(--speed) * 5) calc(var(--speed) * -4) infinite steps(1);
-
 }
 
 .flip.flip3::after {
@@ -337,7 +336,7 @@ link .logo {
     80% { background-image: url('https://picsum.photos/420/300?random=5'); background-position: -178px -2px; transform: rotateY(0deg); }
     100% { background-image: url('https://picsum.photos/420/300?random=6'); background-position: -210px -2px; transform: rotateY(180deg); }
 } */
-@keyframes nextFlip1 {
+/* @keyframes nextFlip1 {
     0% {
         background-image: url('https://picsum.photos/420/300?random=1');
         background-position: -178px -2px;
@@ -403,7 +402,7 @@ link .logo {
         background-position: -178px -2px;
         transform: rotateY(0deg);
     }
-}
+} */
 
 /* @keyframes nextFlip1 {
     0% { background-image: url('https://picsum.photos/420/300?random=1'); background-position: -178px -2px; transform: rotateY(0deg); }
