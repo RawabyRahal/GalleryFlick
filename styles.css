@@ -35,8 +35,6 @@ link .logo {
     animation: preLoad 1s steps(1);
     width: 1px;
     height: 1px;
-
-
 }
 
 @keyframes preLoad {
