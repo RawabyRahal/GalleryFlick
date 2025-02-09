@@ -1,3 +1,3 @@
-#﻿# GalleryFlick
+﻿# GalleryFlick
 
 ### In Progress... 🚧
