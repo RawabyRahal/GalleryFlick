@@ -26,9 +26,9 @@ body {
         url('https://picsum.photos/420/300?random=6');
 }
 
-link .logo {
+/* link .logo {
     border-radius: 50%;
-}
+} */
 
 .imgLoader {
     position: fixed;
