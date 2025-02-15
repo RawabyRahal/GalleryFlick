@@ -1,4 +1,3 @@
 ﻿# GalleryFlick
 
-
 ### In Progress... 🚧
