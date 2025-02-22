@@ -1,4 +1,4 @@
-# 🎨 GalleryFlick  
+# GalleryFlick  
 
 An interactive gallery experience that simulates flipping through a digital photo album with smooth animations and randomly generated images.  
 
@@ -8,7 +8,7 @@ An interactive gallery experience that simulates flipping through a digital phot
 - **Smooth animations** and responsive design 
 
 ## 🛠️ Technologies Used  
-- HTML, CSS (including `:root` variables)  
+- HTML, CSS
 - External image source: [Picsum Photos](https://picsum.photos/)  
 
 ## 📦 Installation  
