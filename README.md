@@ -14,7 +14,6 @@ An interactive gallery experience that simulates flipping through a digital phot
 ## 📦 Installation  
 Clone the repository and open `index.html` in a browser:  
 
-Experience the magic of flipping through your digital gallery with GalleryFlick! Customize it to fit your style and let your creativity shine. 
   ```sh
   git clone https://github.com/RawabyRahal/GalleryFlick.git
   cd GalleryFlick
