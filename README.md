@@ -21,7 +21,7 @@ An interactive gallery experience that simulates flipping through a digital phot
    
    ```bash
    cd GalleryFlick
-3. Open index.html in your browser.
+3. Open `index.html` in your browser.
 
 
 #### ✨ Experience the magic of flipping through your digital gallery with GalleryFlick! Customize it to fit your style and let your creativity shine.
