@@ -8,7 +8,7 @@ An interactive gallery experience that simulates flipping through a digital phot
 - **Smooth animations** and responsive design 
 
 ### 🛠️ Technologies Used  
-- HTML, CSS
+- Javascript, HTML, CSS
 - External image source: [Picsum Photos](https://picsum.photos/)  
 
 ### 📦 Installation  
