@@ -13,10 +13,12 @@ An interactive gallery experience that simulates flipping through a digital phot
 
 ### 📦 Installation  
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/RawabyRahal/GalleryFlick.git
 
-2. Navigate into the project directory:
+3. Navigate into the project directory:
+   
    ```bash
    cd GalleryFlick
 
