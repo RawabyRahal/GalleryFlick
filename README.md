@@ -17,4 +17,6 @@ Clone the repository and open `index.html` in a browser:
 git clone https://github.com/RawabyRahal/GalleryFlick.git
 cd GalleryFlick
 ```
+<br>
+
 ### ✨ Experience the magic of flipping through your digital gallery with GalleryFlick! Customize it to fit your style and let your creativity shine.
