@@ -12,7 +12,7 @@ An interactive gallery experience that simulates flipping through a digital phot
 - External image source: [Picsum Photos](https://picsum.photos/)  
 
 ### 📦 Installation  
-  - Clone the repository and open `index.html` in a browser:
+Clone the repository and open `index.html` in a browser:
   ```bash
   git clone https://github.com/RawabyRahal/GalleryFlick.git
   cd GalleryFlick
