@@ -23,5 +23,6 @@ An interactive gallery experience that simulates flipping through a digital phot
    cd GalleryFlick
 3. Open `index.html` in your browser.
 
+<br>
 
 #### ✨ Experience the magic of flipping through your digital gallery with GalleryFlick! Customize it to fit your style and let your creativity shine.
