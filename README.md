@@ -11,7 +11,7 @@ An interactive gallery experience that simulates flipping through a digital phot
 - Javascript, HTML, CSS
 - External image source: [Picsum Photos](https://picsum.photos/)  
 
-### 📦 Installation  
+### Installation  
 1. Clone the repository:
    
    ```bash
