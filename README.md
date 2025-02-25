@@ -2,7 +2,7 @@
 
 An interactive gallery experience that simulates flipping through a digital photo album with smooth animations and randomly generated images.  
 
-### 🚀 Features  
+### Features  
 - **Realistic flipping effect** for browsing images  
 - **Random images** dynamically loaded from Picsum  
 - **Smooth animations** and responsive design 
